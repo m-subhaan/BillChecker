@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Electricity Bill">
+        <menu>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/LESCO"
+            android:title="LESCO BILL" />
+        <item
+            android:id="@+id/FESCO"
+            android:title="FESCO BILL" />
+        <item
+            android:id="@+id/IESCO"
+            android:title="IESCO BILL" />
+
+    </group></menu>
+    </item>
+
+    <item android:title="Water Bill">
+        <menu>
+            <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/WASAl"
+                android:title="WASA Lahore" />
+            <item
+                android:id="@+id/WASAf"
+                android:title="WASA Faisalabad" />
+            </group> </menu>
+    </item>
+
+
+    <item android:title="Gas Bill">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/GASl"
+                android:title="SNGPL Lahore" />
+            <item
+                android:id="@+id/GASf"
+                android:title="SNGPL Faisalabad" />
+            </group>  </menu>
+    </item>
+
+</menu>
